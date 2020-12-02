@@ -1,0 +1,31 @@
+.imagecontainerlazyload{
+    top: 0px;
+    width:100%;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    
+
+}
+
+.hovercontainer:hover .annot_data{
+    visibility: visible;
+}
+
+.imgloadcrop{
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+}
+.annot_data{
+  color: white;
+   opacity: 1;
+    margin: auto;
+    font-weight: 600;
+    visibility: hidden;
+}

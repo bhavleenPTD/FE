@@ -1,0 +1,56 @@
+.table {
+	width: 92%;
+	margin-top: 1rem;
+	background-color: rgb(255, 255, 255);
+	-webkit-box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 5px 5px 0px rgba(245, 245, 245, 0.911);
+}
+
+thead {
+	background-color: #131313;
+	color: whitesmoke;
+	border-radius: 20px;
+}
+tr {
+	text-align: center;
+	border: 1px solid rgb(0, 0, 0);
+}
+tbody tr:hover {
+	background-color: lightgray;
+	cursor: pointer;
+}
+
+.css-serial {
+	counter-reset: serial-number; /* Set the serial number counter to 0 */
+}
+
+.css-serial td:first-child:before {
+	counter-increment: serial-number; /* Increment the serial number counter */
+	content: counter(serial-number); /* Display the counter */
+}
+.Img-all-datadiv {
+	width: 330px;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	padding: 1rem;
+	font-weight: bolder;
+	margin-right: 1rem;
+	color: rgb(41, 41, 41);
+	background: rgb(252, 244, 231);
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: inset 0px 0px 1px 0px rgba(53, 53, 53, 0.75);
+	border-radius: 5px;
+}
+
+.Img-all-datadiv:hover {
+	background: wheat;
+}
+
+.selection-cell input[type='checkbox'] {
+	margin-left: -45px;
+}

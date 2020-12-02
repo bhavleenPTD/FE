@@ -1,0 +1,68 @@
+.create-right-form {
+	display: flex;
+	width: 100%;
+	padding: 1rem;
+}
+
+#form {
+	width: 100%;
+}
+
+#cr-btn {
+	display: flex;
+	align-items: center;
+}
+
+.right-create-btn {
+	margin-top: 5rem;
+	float: right;
+	margin-right: 5rem;
+}
+#assign-right-btn {
+	border: 1px solid crimson;
+	padding: 0.2rem;
+	color: crimson;
+	border-radius: 3px;
+	margin: 2px;
+}
+
+#assigned-right-btn {
+	border: 1px solid green;
+	padding: 0.2rem;
+	color: green;
+	border-radius: 3px;
+	margin: 2px;
+}
+
+#close-btn {
+	color: crimson;
+}
+#tick-btn {
+	font-size: 17px;
+	color: rgb(139, 192, 139);
+	font-weight: bolder;
+}
+#tick-btn:hover {
+	font-size: 17px;
+	color: darkgreen;
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+#assign-right-btn:hover {
+	border: 1px solid crimson;
+	background: rgb(240, 194, 203);
+	padding: 0.2rem;
+	color: crimson;
+	border-radius: 3px;
+	margin: 2px;
+}
+
+#assigned-right-btn:hover {
+	border: 1px solid green;
+	background: rgb(194, 240, 196);
+	padding: 0.2rem;
+	color: green;
+	border-radius: 3px;
+	margin: 2px;
+}

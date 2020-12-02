@@ -1,0 +1,20 @@
+.create-react-form {
+	display: flex;
+	width: 100%;
+	padding: 1rem;
+}
+
+#form {
+	width: 100%;
+}
+
+#cr-btn {
+	display: flex;
+	align-items: center;
+}
+
+.react-create-btn {
+	margin-top: 5rem;
+	float: right;
+	margin-right: 5rem;
+}
